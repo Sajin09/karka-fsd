@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#todo{
+    border: 2px solid black;
+    height: 100vh;
+    background: url(./6937.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    height: 70vh;
+    width: 70%;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+#side{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#side input{
+    height: 40px;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+#side button{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: pink;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+
+#side button:hover{
+    background-color: rgb(225, 103, 124);
+    transition: .10s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#output{
+    padding-top: 30px;
+    padding-right: 50px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
