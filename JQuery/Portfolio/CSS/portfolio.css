@@ -6,7 +6,7 @@
 .top{
     height: 100vh;
     width: 100%;
-    background: url(../images/3448591.jpg);
+    background: url(../images/20187311_6184384.jpg);
     background-size: cover;
 
 }
@@ -20,5 +20,200 @@
     border: none;
     color: white;
     font-family: serif;
+    color: #00e1ff;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+
+}
+
+#top1{
+    height: 350px;
+    width: 350px;
+    margin-left: 120px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#top1 img{
+    height: 522px;
+    width: auto;
+    border-radius: 20px;
+    filter: brightness(90%);
+}
+
+#sajin{
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+#sajin p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#sajin h1 {
+    margin-top: 30px;
+    color: white;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    animation: slideIn 1s ease-in-out, neonGlow 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes neonGlow {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(255, 225, 0, 0.8), 0 0 30px rgba(255, 225, 0, 0.8), 0 0 30px  rgba(255, 225, 0, 0.8);
+      /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8); */
+    }
+    50% {
+      text-shadow: none;
+      box-shadow: none;
+    }
+  }
+  
+  
+#sajin h3{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#edu {
+  flex: 50%;
+  margin-top: 150px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 120px;
+}
+
+#edu h1{
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 225, 0, 0.8), 0 0 5px rgba(255, 225, 0, 0.8), 0 0 5px  rgba(255, 225, 0, 0.8);
+}
+
+
+#edu p{
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+
+#edu1 {
+  flex: 50%;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes glow {
+  0% {
+      text-shadow: 0 0 10px gold;
+  }
+  50% {
+      text-shadow: 0 0 20px gold;
+  }
+  100% {
+      text-shadow: 0 0 10px gold;
+  }
+}
+
+#edu1 h1 {
+  font-size: 60px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  animation: glow 2s infinite;
+}
+
+#edu1 h3{
+  font-size: 23px;
+  color: gold;
+}
+
+#edu1 p{
+  font-size: 18px;
+  color: white;
+}
+
+#nav1{
+  flex: 40%;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+#nav1 h1{
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 225, 0, 0.8), 0 0 5px rgba(255, 225, 0, 0.8), 0 0 5px  rgba(255, 225, 0, 0.8);
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#nav11 i{
+   color: gold;
+   font-size: 30px;
+   margin-top: 40px;
+}
+#nav11 {
+  display: flex;
+}
+
+#nav11 h3{
+  color: white;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#nav11 p{
+  color: white;
+  margin-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+
+} 
+
+#nav2{
+  margin-top: 40px;
+  flex: 60%;
+}
+
+@keyframes glow {
+  0% {
+      text-shadow: 0 0 10px gold;
+  }
+  50% {
+      text-shadow: 0 0 20px gold;
+  }
+  100% {
+      text-shadow: 0 0 10px gold;
+  }
+}
+
+#nav2 h1 {
+  font-size: 60px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  animation: glow 2s infinite;
+}
+
+#nav2 p {
+  color: white;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 
 }
