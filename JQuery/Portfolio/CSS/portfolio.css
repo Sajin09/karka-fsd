@@ -10,6 +10,15 @@
     background-size: cover;
 
 }
+ #profile-tab, #contact-tab, #disabled-tab, #dis-tab{
+  color: gold;
+
+}
+
+#home-tab{
+  background-color: transparent;
+  color: white;
+}
 
 #myTab{
     display: flex;
@@ -216,4 +225,233 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 
+}
+
+#last h1{
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 225, 0, 0.8), 0 0 5px rgba(255, 225, 0, 0.8), 0 0 5px  rgba(255, 225, 0, 0.8);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#last1{
+  flex: 30%;
+
+}
+
+#last1 img{
+  margin-left: 10px;
+    height: 200px;
+    width: 400px;
+
+}
+
+#last1 p{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+#last2{
+  flex: 30%;
+
+}
+#last2 img{
+  margin-left: 10px;
+  height: 200px;
+  width: 400px;
+
+}
+
+#last2 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#last3{
+  flex: 30%;
+
+}
+#last3 img{
+  height: 200px;
+  width: 400px;
+}
+
+#last3 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#last4{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last4 img{
+  height: 50px;
+  width: 50px;
+}
+
+#last4 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+#last5{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last5 img{
+  height: 60px;
+  width: 60px;
+}
+
+#last5 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+#last6{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last6 img{
+  height: 50px;
+  width: 50px;
+}
+
+#last6 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#last7{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last7 img{
+  height: 50px;
+  width: 50px;
+}
+
+#last7 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#last8{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last8 img{
+  height: 60px;
+  width: 60px;
+}
+
+#last8 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#last9{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last9 img{
+  height: 60px;
+  width: 60px;
+}
+
+#last9 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#last10{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last10 img{
+  height: 50px;
+  width: 50px;
+}
+
+#last10 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#last11{
+  margin-top: 20px;
+  flex: 10%;
+
+}
+#last11 img{
+  height: 50px;
+  width: 50px;
+}
+
+#last11 p{
+color: white;
+text-align: center;
+margin-top: 20px;
+
+}
+
+#add{
+  display: flex;
+}
+
+#add1{
+  margin-top: 40px;
+  flex: 25%;
+  justify-content: center;
+  text-align: center;
+}
+
+#add1 i{
+  color: white;
+  font-size: 50px;
+  text-shadow: 0 0 10px rgba(255, 225, 0, 0.8), 0 0 5px rgba(255, 225, 0, 0.8), 0 0 5px  rgba(255, 225, 0, 0.8);
+}
+
+#add1 h3{
+  margin-top: 20px;
+  color: gold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#add1 p{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#add1 a{
+  border: none;
+  color: white;
+  text-decoration: none;
 }
