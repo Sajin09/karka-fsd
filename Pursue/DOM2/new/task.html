@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <select name="country" id="country" onchange="dropdown()">
+        <option value="INDIA">INDIA</option>
+        <option value="USA">USA</option>
+        <option value="SINGAPORE">SINGAPORE</option>
+        <option value="NEWZEALAND">NEWZEALAND</option>
+    </select>
+
+    <div id="countryInfo"> </div>
+
+
+
+
+    <script>
+        let Country_data = {
+
+            INDIA: {
+                Country: "India",
+                Population: "140.76 crores",
+                Capital: "Delhi",
+                Currency: "INR"
+            },
+
+
+            USA: {
+                Country: "United States of America",
+                Population: "33.19 crores",
+                Capital: "Washington, D.C.",
+                Currency: "U.S Dollor"
+            },
+
+
+            SINGAPORE: {
+                Country: "Singapore",
+                Population: "54.5 lakhs",
+                Capital: "Singapore city",
+                Currency: "Singapore Dollor"
+            },
+
+            NEWZEALAND: {
+                Country: "New Zealand",
+                Population: "52.5 lakhs",
+                Capital: "Wellington",
+                Currency: "NZD"
+            }
+        }
+        dropdown();
+        function dropdown(){
+            let selectedCountry = document.getElementById("country").value;
+            let countryInfo = Country_data[selectedCountry];
+            document.getElementById("countryInfo").innerHTML = `
+                <p>Country: ${countryInfo.Country}</p>
+                <p>Population: ${countryInfo.Population}</p>
+                <p>Capital: ${countryInfo.Capital}</p>
+                <p>Currency: ${countryInfo.Currency}</p>
+            `;
+
+        }
+
+    </script>
+</body>
+
+</html>

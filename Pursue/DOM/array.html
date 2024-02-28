@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name">
+    <button id="btn" onclick="clickme()">
+        add
+    </button>
+</body>
+    <script>
+             var array=[]
+             var even=[]
+             if(array%2==0){
+                array.push(even)
+                console.log(even)
+            }
+        function clickme(){
+            let userinput= document.getElementById("name").value
+            array.push(userinput)
+            console.log(array)
+            document.getElementById("name").value = "";
+        }
+    </script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name">
+    <button id="btn" onclick="clickme()">
+        add
+    </button>
+    <script>
+        var array = [];
+        var even = [];
+
+        function clickme() {
+            let userinput = document.getElementById("name").value;
+            let parsedInput = parseInt(userinput);
+
+            if (!isNaN(parsedInput)) {
+                array.push(parsedInput);
+
+                if (parsedInput % 2 === 0) {
+                    even.push(parsedInput);
+                    console.log(even);
+                }
+                
+                console.log(array);
+            }
+
+            document.getElementById("name").value = "";
+        }
+    </script>
+</body>
+</html>

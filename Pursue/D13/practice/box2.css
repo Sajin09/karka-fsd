@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid black;
+    /* height: 600px; */
+    /* background-color: aqua; */
+}
+
+.box1{
+    border: 2px solid black;
+    height: 100px;
+    text-align: center;
+    background-color: blue;
+}
+
+.box1 h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.box2{
+    border: 2px solid black;
+    height: 100px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.box2 h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.box3{
+    border: 2px solid black;
+    /* height: 300px; */
+    width: 100%;
+    display: inline-flex;
+
+}
+
+.box4{
+    border: 2px solid black;
+    height: 300px;
+    width: 50%;
+    background-color: aqua;
+    text-align: center;
+}
+
+.box4 h2{
+    margin-top: 125px;
+    font-size: 30px;
+}
+
+.box5{
+    border: 2px solid black;
+    height: 300px;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.box6{
+    border: 2px solid black;
+    height: 145px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+}
+
+.box6 h2{
+    margin-top: 45px;
+    font-size: 40px;
+
+}
+
+.box7{
+    border: 2px solid black;
+    height: 145px;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.box7 h2{
+    margin-top: 45px;
+    font-size: 40px;
+
+}
+
+
+.box8{
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    background-color: crimson;
+    text-align: center;
+}
+
+.box8 h2{
+    margin-top: 25px;
+    font-size: 40px;
+
+}   
+
+.box9{
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+
+.box9 h2{
+    margin-top: 25px;
+    font-size: 40px;
+
+}   

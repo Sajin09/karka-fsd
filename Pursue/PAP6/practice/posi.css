@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.box1{
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 25px;
+    position: absolute;
+    right: 1010px;
+    top: 20px;
+    border: none;
+    /* background-color: white; */
+    /* z-index: 1; */
+}

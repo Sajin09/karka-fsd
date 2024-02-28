@@ -9,10 +9,6 @@ function updateValue(value) {
     $('#selectedValue').text( value);
 }
 
-    function updateValue(value) {
-        $('#selectedValue').text(value);
-    }
-
     $(document).ready(function () {
         let empty = [];
 
@@ -45,8 +41,6 @@ function updateValue(value) {
 
         })
     });
-
-
 
 
    

@@ -283,6 +283,12 @@ input:focus{
 }
 
 #chat22{
-    height: 550px;
+    height: 500px;
 
+}
+
+#msg{
+    height: 60px;
+    width: 90%;
+    text-align: center;
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="add()">add</button>
+    <button onclick="remove()">remove</button>
+
+
+    <script>
+        function add(){
+            let p= document.createElement("p")
+            p.innerText="new para"
+            document.body.appendChild(p)
+
+        }
+        function remove(){
+            let paragraph=document.querySelectorAll("p")
+            console.log(paragraph)
+
+            if(paragraph.length>0)
+            {
+            let lastpara=paragraph[paragraph.length-1]
+            lastpara.parentNode.removeChild(lastpara)
+            }
+        }
+
+    </script>
+</body>
+</html>

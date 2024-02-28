@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    border: 2px solid black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top1{
+    border: 2px solid black;
+    height: 50vh;
+    width: 50%;
+    background-color: green;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .top1{
+        background-color: yellow;
+    }
+}
+    
+@media only screen and (max-width: 992px)
+{
+    .top1{
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 776px)
+{
+    .top1{
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 556px)
+{
+    .top1{
+        background-color: pink;
+    }
+}

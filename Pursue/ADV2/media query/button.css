@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-1 button{
+    height: 50vh;
+    width: 50vh;
+    font-size: 80px;
+    background-color: red;
+    color: black;
+}
+
+@media only screen and (max-width: 1200px)
+{
+.top-1 button{
+    height: 40vh;
+    width: 40vh;
+    font-size: 60px;
+    background-color: greenyellow;
+    color: black;
+}    
+}
+
+@media only screen and (max-width :992px)
+{
+.top-1 button{
+    height: 30vh;
+    width: 30vh;
+    font-size: 40px;
+    background-color: pink;
+    color: black;
+}    
+}
+
+@media only screen and (max-width:776px)
+{
+.top-1 button{
+    height: 20vh;
+    width: 20vh;
+    font-size: 20px;
+    background-color: rgb(255, 0, 102);
+    color: black;
+}    
+}
+
+@media only screen and (max-width:556px)
+{
+.top-1 button{
+    height: 10vh;
+    width: 10vh;
+    font-size: 10px;
+    background-color: mediumspringgreen;
+    color: black;
+}    
+}

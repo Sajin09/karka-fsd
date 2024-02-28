@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    bottom: 0;
+}
+
+#top{
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 500px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#add{
+    margin-top: 80px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+}
+
+#input{
+    height: 40px;
+    width: fit-content;
+    font-size: 20px;
+}
+

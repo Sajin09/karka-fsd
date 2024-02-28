@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    border: 2px solid white;
+    /* height: 900px; */
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top1{
+    border: 5px solid white;
+    flex: 20%;
+    display: flex;
+}
+
+.top2{
+    border: 5px solid white;
+    flex: 20%;
+    display: flex;
+}
+
+
+.top3{
+    border: 5px solid white;
+    flex: 20%;
+    display: flex;
+}
+
+.top4{
+    border: 5px solid white;
+    flex: 20%;
+    display: flex;
+}
+
+.top5{
+    border: 5px solid white;
+    flex: 20%;
+    display: flex;
+}
+
+.mid1{
+    border: 5px solid white;
+    flex: 33%;
+}
+
+.mid2{
+    border: 5px solid white;
+    flex: 33%;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    background-color: bisque;
+}
+
+.mid3{
+    border: 5px solid white;
+    flex: 33%;
+}
+
+.mid1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.mid3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.mid4{
+    border: 5px solid white;
+    flex: 33%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+
+.mid5{
+    border: 5px solid white;
+    flex: 33%;
+}
+
+.mid6{
+    border: 5px solid white;
+    flex: 33%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+
+.mid5 img{
+    height: 100%;
+    width: 100%;
+}
+
+.mid7{
+    border: 5px solid white;
+    flex: 33%;
+    margin-top: 2px;
+}
+
+.mid8{
+    border: 5px solid white;
+    flex: 33%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+
+.mid9{
+    border: 5px solid white;
+    flex: 33%;
+}
+
+.mid10{
+    border: 5px solid white;
+    flex: 33%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+
+.mid11{
+    border: 5px solid white;
+    flex: 33%;
+}
+
+.mid12{
+    border: 5px solid white;
+    flex: 33%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+
+.mid13{
+    border: 5px solid white;
+    flex: 33%;
+}
+
+.mid14{
+    border: 5px solid white;
+    flex: 33%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+
+.mid15{
+    border: 5px solid white;
+    flex: 33%;
+}
+
+.mid7 img{
+    height: 380px;
+    width: 100%;
+}
+
+.mid9 img{
+    height: 100%;
+    width: 100%;
+}
+
+.mid11 img{
+    height: 100%;
+    width: 100%;
+}
+
+.mid13 img{
+    height: 100%;
+    width: 100%;
+}
+
+.mid15 img{
+    height: 100%;
+    width: 100%;
+}

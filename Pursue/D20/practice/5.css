@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    /* border: 1px solid black; */
+    height: 350px;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(https://www.shutterstock.com/image-vector/world-map-shadow-600w-1334160962.jpg);
+    background-size: cover;
+    display: flex;
+    border-radius: 20px;
+}
+
+.top1{
+    /* border: 1px solid black; */
+    flex: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top2{
+    border: 1px dotted white;
+    flex: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid1{
+    /* border: 1px solid black; */
+    flex: 15%;
+    background-color: black;
+    display: flex;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.mid2{
+    /* border: 1px solid black; */
+    flex: 75%;
+}
+
+.mid3{
+    /* border: 1px solid black; */
+    flex: 10%;
+    background-color: black;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.mid4{
+    /* border: 1px solid black; */
+    flex: 15%;
+    background-color: black;
+}
+
+.mid5{
+    /* border: 1px solid black; */
+    flex: 75%;
+    background-color: red;
+}
+
+.mid6{
+    /* border: 1px solid black; */
+    flex: 10%;
+    background-color: black;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.mid1 i{
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.mid1 h1{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mid1 h2{
+    color: white;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+
+.mid7{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mid7 p{
+    color: red;
+}
+.mid8{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.mid8 p{
+    color: red;
+}
+
+.mid9{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.mid9 p{
+    color: red;
+}
+
+.mid10{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.mid10 p{
+    color: red;
+}
+
+
+.mid11{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.mid11 p{
+    color: red;
+}
+.mid11 h2{
+    margin-top: 3px;
+}
+
+.mid12 h1{
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 50px;
+    color: navy;
+}
+
+.mid13 i{
+    margin-top: 30px;
+    font-size: 80px;
+    margin-left: 20px;
+    color: darkblue;
+}
+
+.mid14 h1{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: navy;
+}
+
+.mid15{
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.mid15 p{
+    color: red;
+}
+
+.mid16{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.mid17{
+    /* margin-top: 15px; */
+    margin-left: 120px;
+}
+
+.mid17 p{
+    color: red;
+}
+
+.mid18{
+    /* margin-top: 15px; */
+    margin-left: 40px;
+}
+
+.mid18 p{
+    color: red;
+}
+
+.mid19{
+    /* margin-top: 15px; */
+    margin-left: 40px;
+}
+
+.mid19 p{
+    color: red;
+}
+
+.bar img{
+    height: 45px;
+    width: 100%;
+    color: white;
+    background-color: white;
+}
+
+.mid20{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.mid20 h2{
+    color: white;
+}
+
+.mid21{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.mid21 h2{
+    color: white;
+}
+
+.mid22{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.mid22 h2{
+    color: white;
+}
+
+.mid23{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.mid23 h2{
+    color: white;
+}
+
+.mid24{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mid24 h2{
+    color: white;
+}
+
+.mid25{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.mid25 h2{
+    color: white;
+}
+
+.mid26{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.mid26 h2{
+    color: white;
+}
+
+.mid27{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.mid27 h2{
+    color: white;
+}
+
+.mid28 i{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.mid29 p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}

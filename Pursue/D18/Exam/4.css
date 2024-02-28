@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: 2px solid black;
+    /* height: 500px; */
+}
+
+.box1{
+    border: 1px solid black;
+    height: 50px;
+    background-color: gold;
+}
+
+.box1 p{
+    text-align: center;
+    font-size: larger;
+    margin-top: 15px;
+}
+
+.box2{
+    border: 2px solid black;
+    height: 400px;
+    background-image: url(vecteezy_dj-playing-and-mixing-music-in-nightclub-party-at-night_26794666.jpg);
+    background-size: cover;
+}
+
+.box2 h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.box3{
+    color: orange;
+    margin-top: 25px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.box4{
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+
+.box5{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+.box5 button{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+.box5 button:hover{
+    color: orange;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.layer{
+    display: flex;
+}
+
+.box7{
+    text-align: center;
+    margin-top: 75px;
+    color: white;
+}
+
+.box8{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color : white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font outline-color: black; */
+}
+
+.box9{
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box9 button{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+    justify-content: center;
+}
+
+.box9 button:hover{
+    color: orange;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.layer1{
+    display: flex;
+}
+
+.box11{
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.box12{
+    color: white;
+    margin-top: 20px;
+    margin-left: 355px;
+    /* text-align: center; */
+}
+
+.box13{
+    color: white;
+    margin-top: 20px;
+    margin-left: 300px;
+    display: flex;
+}
+
+.end{
+    background-image: url("https://media.istockphoto.com/id/1436433087/video/abstract-liquid-color-gradient-neon-colorful-background.jpg?s=640x640&k=20&c=GkjezX83t2LftDbjeaFlxn1y7OovcVSiAC5kByPJXcY=");
+    height: 450px;
+    background-size: cover;
+}
+
+
+.end h1{
+    /* padding-top: 80px; */
+    margin-top:80px;
+    margin-left: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.end2{
+    margin-left: 80px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end3 h2{
+    padding-top: 20px;
+    /* padding-top:80px; */
+    margin-left: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.end4{
+    margin-left: 80px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end5 h2{
+    padding-top: 20px;
+    /* margin-top:80px; */
+    margin-left: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.end6{
+    margin-left: 80px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.last img
+{
+    height: 450px;
+}

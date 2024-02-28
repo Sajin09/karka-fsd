@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    animation-name: rotate;
+    animation-duration: .2s;
+    animation-timing-function: inherit;
+}
+
+.top1{
+    /* border: 1px solid black; */
+    flex: 20%;
+    background-color: chartreuse;
+}
+
+.top2{
+    /* border: 1px solid black; */
+    flex: 20%;
+    display: flex;
+}
+.top6{
+    /* border: 1px solid black; */
+    flex: 50%;
+    background-color: blue;
+}
+.top7{
+    /* border: 1px solid black; */
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.top8{
+    /* border: 1px solid black; */
+    flex: 50%;
+    background-color: brown;
+}
+.top9{
+    /* border: 1px solid black; */
+    flex: 50%;
+    background-color: cadetblue;
+}
+.top3{
+    /* border: 1px solid black; */
+    flex: 20%;
+    display: flex;
+}
+
+.top10{
+    /* border: 1px solid black; */
+    flex: 30%;
+    background-color: coral;
+}
+.top11{
+    /* border: 1px solid black; */
+    flex: 70%;
+    background-color: cornflowerblue;
+}
+.top4{
+    /* border: 1px solid black; */
+    flex: 20%;
+    display: flex;
+}
+.top12{
+    /* border: 1px solid black; */
+    flex: 31.5%;
+    background-color: crimson;
+}
+.top13{
+    /* border: 1px solid black; */
+    flex: 33%;
+    background-color: darkgoldenrod;
+}
+.top14{
+    /* border: 1px solid black; */
+    flex: 40%;
+    background-color: darkcyan;
+}
+
+.top5{
+    /* border: 1px solid black; */
+    flex: 20%;
+    background-color: deeppink;
+}
+
+.top{ animation: rotate .5s infinite; }
+@keyframes rotate{
+    0%{ transform: rotate(90deg);}
+    50%{ transform: rotate(180deg);}
+    100%{ transform: rotate(360deg);}
+}

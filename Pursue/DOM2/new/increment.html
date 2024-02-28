@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Increment Decrement Program</title>
+</head>
+<body>
+
+  <div id="counter">0</div>
+  <button onclick="increment()">Increment</button>
+  <button onclick="decrement()">Decrement</button>
+  <button onclick="reset()">Delete</button>
+
+  <script>
+
+    count=0
+
+    function increment() {
+      var a=document.getElementById("counter")
+      count++
+      a.innerHTML=count
+
+    }
+
+    function decrement() {
+      var a=document.getElementById("counter")
+      count--
+      a.innerHTML=count
+
+    }
+    function reset() {
+      var a = document.getElementById('counter');
+      a.innerText = '';
+    }
+  </script>
+
+</body>
+</html>

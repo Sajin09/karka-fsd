@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin-top: 50px;
+    margin-left: 100px;
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 60%;
+    background-color: red;
+    position: relative;
+    /* overflow: hidden; */
+
+}
+
+.box1{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    background-color: white;
+}
+
+.box2{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 320px;
+    top: 100px;
+    background-color: white;
+
+}

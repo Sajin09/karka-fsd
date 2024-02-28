@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: rgb(255, 0, 98);
+    grid-template-rows: 100px 200px 100px;
+    grid-auto-flow: column;
+}
+
+.box1{
+    background-color: gold;
+    color: white;
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

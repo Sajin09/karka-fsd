@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 1px solid black;
+    height: 300px;
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.tag{
+    /* margin-top: 10px; */
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+.tag i{
+    font-size: 300px;
+    transform: rotate(100deg)
+}
+
+.header{
+    position: relative;
+}
+
+.footer{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-radius: 25px;
+    top: 325px;
+    right: 890px;
+    transform: rotate(55deg);
+}

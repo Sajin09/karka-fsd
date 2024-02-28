@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid black;
+    height: 350px;
+    width: 65%;
+    margin-top: 100px;
+    margin-left: 250px;
+    background-color: white
+}
+
+.box1{
+    border: 2px solid black;
+    height: 300px;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.box2{
+    /* border: 2px dotted black; */
+    height: 299px;
+    width: 70%;
+    border-radius: 20px;
+    /* margin-bottom: 30px; */
+    background: url('World_map_blank_gmt.svg.png'); 
+    /* object-fit: cover; */
+    background-size: cover;
+
+    
+}
+
+.box2 .background{
+    opacity: .2;
+}
+
+.box3{
+    margin-top: 5px;
+    height: 75%;
+    width: 95%;
+    /* opacity: ; */
+    
+}
+
+.box4{
+    border: 2px solid red;
+    border-radius: 10px 0px 60px 0px;
+    height: 60px;
+    width: 80%;
+    background-color: red;
+    display: flex;
+}
+
+.box4 i{
+    color: white;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.box5{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
