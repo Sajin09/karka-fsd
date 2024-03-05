@@ -192,7 +192,7 @@ input:focus{
 
 }
 .page3{
-    display: block;
+    display: none;
 }
 
 .page3:active{
@@ -292,3 +292,4 @@ input:focus{
     width: 90%;
     text-align: center;
 }
+
