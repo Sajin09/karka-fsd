@@ -1,0 +1,154 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+#page1{
+    background: rgb(255,0,226);
+    background: linear-gradient(0deg, rgba(255,0,226,1) 25%, rgba(224,43,128,1) 75%);
+    height: 100vh;
+}
+
+#id-1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#id-1 label{
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+#id-1 input{
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    height: 34px;
+    width: 30%;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#id-2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30PX;
+}
+
+#id-2 input{
+    height: 20px;
+    width: 20px;
+    outline: none;
+}
+    
+#id-3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30PX;
+}
+
+#id-3 select{
+    font-size: 25px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#skills{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#skills h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#skills input{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+} */
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#page1 {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+#id-1,
+#id-2,
+#id-3,
+#skills {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#clear {
+    background-color: #ff3333;
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Operation</title>
+    <link rel="stylesheet" href="../CSS/crud.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referr   er"></script>
+</head>
+
+<body>
+    <div id="page1">
+        <h2 style="text-align: center; font-size: 40px; padding-top: 20px; font-family: 'Times New Roman', Times, serif;">CRUD Operation</h2>
+        <div id="id-1">
+            <label for="Username">Name :</label>
+            <input type="text" placeholder="Enter your name" id="Name">
+        </div>
+        <div id="id-1">
+            <label for="Email">Email :</label>
+            <input type="email" placeholder="Enter your email" id="Email">
+        </div>
+        <div id="id-1">
+            <label for="Phonenumber">Password :</label>
+            <input type="password" placeholder="enter your password" id="Phonenumber">
+        </div>
+        <div id="id-2">
+            <label for="gender">Gender :</label>
+
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label> 
+
+            <input type="radio" id="female" name="gender" value="Female" style="margin-left: 20px;">
+            <label for="female">Female</label>
+
+            <input type="radio" id="others" name="gender" value="Others" style="margin-left: 10px;">
+            <label for="others">Others</label>
+        </div>
+        <div id="id-3">
+            <label for="place">Place :</label>
+            <select name="dropdown" id="dropdown">
+                <option value="Nagercoil" id="nagercoil" >Nagercoil</option>
+                <option value="thirunelveli" id="thirunelveli">Tirunelveli</option>
+                <option value="kochi" id="kochi">Kochi</option>
+
+            </select>
+        </div>
+        <div id="skills">
+            <label>
+                <h2 style="font-size: 30px;">Skills</h2>
+            </label>
+            <input type="checkbox" id="html" value="html" style="margin-left: 10px;"> 
+            <label for="html" style="font-size: 30px; margin-top: -10px; margin-left: 5px; font-family: 'Times New Roman', Times, serif;">HTML</label>
+            <input type="checkbox" id="css" value="css" style="margin-left: 10px;" >
+            <label for="css" style="font-size: 30px; margin-top: -10px; margin-left: 5px; font-family: 'Times New Roman', Times, serif;">Css</label>
+            <input type="checkbox" id="javaScript" value="javaScript" style="margin-left: 10px;" >
+            <label for="javaScript" style="font-size: 30px; margin-top: -10px; margin-left: 5px; font-family: 'Times New Roman', Times, serif;">javaScript</label>
+            <input type="checkbox" id="Python" value="Python" style="margin-left: 10px;">
+            <label for="Python" style="font-size: 30px; margin-top: -10px; margin-left: 5px; font-family: 'Times New Roman', Times, serif;">Python</label>
+        </div>
+        <div>
+            <button id="submit">Submit</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th> 
+                        <th>Gender</th>
+                        <th>Edit</th>
+                        <th>delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="../JS/crud.js"></script>
+
+</html>
