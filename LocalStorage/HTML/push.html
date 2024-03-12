@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    
+</body>
+    <script>
+        let a=[2,4,5,6,8,7,10]
+        let empty = localStorage.getItem('array') ? JSON.parse(localStorage.getItem('array')) : [];
+
+        for( let i=0; i<= a.length; i++ ){
+
+            if(a[i]%2 == 0){
+                empty.push(a[i])
+                continue
+            }
+        }
+        localStorage.setItem("array",JSON.stringify(empty))
+        let z=JSON.parse(localStorage.getItem("empty"))
+        console.log(z)
+
+        console.log(empty)
+
+    </script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <form>
+        <div>
+            <label for="Input">Input :</label>
+            <input type="text" id="input">
+        </div>
+        <hr>
+        <div>
+            <button id="add">Add</button>
+        </div>
+    </form>
+</body>
+    <script>
+        let a=[]
+        $(document).ready(function () {
+            $("#add").click(function(e){
+                e.preventDefault()
+                let input=($("#input").val())
+                a.push(input)
+                console.log(a)
+                let array=localStorage.setItem("arry",JSON.stringify(a))
+                $("#input").val(" ")
+                let c=JSON.parse(localStorage.getItem(a))
+                console.log(c)
+
+
+            })
+            console.log(a)
+
+        });
+    </script>
+</html>
