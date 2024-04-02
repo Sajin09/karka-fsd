@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to cart</title>
+    <link rel="stylesheet" href="../CSS/com.css">
+</head>
+<style>
+    .card {
+        width: 100%;
+        float: left;
+        margin-top: 40px;
+
+    }
+    .card-img-top {
+        margin-left: 50px;
+        height: 200px;
+        margin-top: 20px;
+        width: 20%;
+        float: left;
+    }
+    .card-body{
+        float: left;
+        width: 50%;  
+    }
+    .details{
+        float: right;
+        margin-top: 80px;
+        font-size: xx-large;
+        color: white;
+    }
+
+    .remove,
+    .add {
+        width: 45%;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .reg {
+        float: right;
+        margin-top: 100px;
+        width: 50%;
+    }
+</style>
+
+<body style="background: rgb(121, 0, 107);
+background: linear-gradient(45deg,  rgba(0, 0, 0, 1)29%,  rgb(117, 1, 105)75%);
+width: 100%;">
+
+    <div class="atc">
+        <p>Add to Cart</p>
+    </div>
+    <div id="result">
+
+    </div>
+    <script>
+        const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        const atcDiv = document.querySelector('#result');
+
+        if (cartItems.length > 0) {
+            cartItems.forEach(product => {
+                const newItem = document.createElement('div');
+                newItem.classList.add('card');
+                newItem.innerHTML = `
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="${product.img}" class="card-img-top Nike" id="Nike" alt="${product.name}">
+
+                            <div class="details">
+                            <h5 class="card-title">${product.name}</h5>
+                            <p class="card-text price">Price: Rs. ${product.price}</p>
+                            <p class="card-text">${product.description}</p>
+                            </div>
+
+                        </div>
+
+                        <div class="reg">
+                            <button class="button remove" data-product='${JSON.stringify(product)}'>Remove</button>
+                            <button class="button add" data-product='${JSON.stringify(product)}'>Place Order</button>
+                        <div>
+                    </div>
+                `;
+                atcDiv.appendChild(newItem);
+            });
+        } else {
+            atcDiv.innerHTML = '<p>No items in the cart</p>';
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

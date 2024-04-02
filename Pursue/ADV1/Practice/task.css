@@ -14,22 +14,23 @@
     overflow: hidden;
     border-radius: 0px 40px 0px 40px;
     animation: rotate .5s infinite;
+    /* background-color: transparent; */
 }
 
 @keyframes rotate{
     0%{
         transform: rotate(90deg);
-        background-color: red;
+        background-color: rgb(255, 0, 162);
     }
 
     50%{
         transform: rotate(180deg);
-        background-color: yellow;
+        background-color: rgb(174, 0, 255);
     }
 
     100%{
         transform: rotate(360deg);
-        background-color: chartreuse;
+        background-color: rgb(255, 0, 60);
     }
 }
 .top1{
@@ -38,6 +39,7 @@
     width: 50px;
     border-radius: 50%;
     position: absolute;
+    
     bottom: 270px;
     right: 270px;
     background-color: white;
@@ -96,5 +98,10 @@
     bottom: -22px;
     right: -22px;
     background-color: white;
+}
+
+.top7{
+
+    
 }
 

@@ -7,7 +7,7 @@ $(document).ready(function(){
 
         itemArray.push(input);
         localStorage.setItem('item', JSON.stringify(itemArray));
-
+ 
         displayItems();
     });
 

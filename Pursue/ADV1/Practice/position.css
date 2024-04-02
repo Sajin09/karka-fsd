@@ -11,7 +11,7 @@
     width: 60%;
     background-color: red;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 
 }
 
@@ -22,9 +22,9 @@
     background-color: black;
     border-radius: 50%;
     position: absolute;
-    top: 250px;
+    top: 242px;
     left: 125px;
-    background-color: white;
+    background-color: black;
 }
 
 .box2{
