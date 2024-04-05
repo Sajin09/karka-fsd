@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+    <script>
+        async function readMenu() {
+            try {
+                const response = await fetch("food.json");
+                console.log(response)
+
+                if (!response.ok) {
+                    throw new Error("Failed to read menu. Status: " + response.status);
+                }
+
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error("Error reading menu:", error);
+                return null;
+            }
+        }
+        readMenu()
+            .then(data => {
+                console.log("Menu data:", data);
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+    </script>
+</html>
