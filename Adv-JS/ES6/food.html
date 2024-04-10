@@ -19,18 +19,21 @@
                 }
 
                 const data = await response.json();
+                console.log(data)
                 return data;
+                
             } catch (error) {
                 console.error("Error reading menu:", error);
                 return null;
             }
         }
         readMenu()
-            .then(data => {
-                console.log("Menu data:", data);
-            })
-            .catch(error => {
-                console.error("Error:", error);
-            });
+        
+            // .then(data => {
+            //     console.log("Menu data:", data);
+            // })
+            // .catch(error => {
+            //     console.error("Error:", error);
+            // });
     </script>
 </html>
