@@ -1,0 +1,9 @@
+.nav1{
+    padding: 30px ;
+    font-size: 30px;
+    background-color: #ede3e3;
+}
+
+.nav1 NavLink{
+    color: red !important;
+}

@@ -1,0 +1,35 @@
+.navbar {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.navbar-menu {
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+    border-radius: 50px;
+}
+
+input{
+    margin-left: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    
+}

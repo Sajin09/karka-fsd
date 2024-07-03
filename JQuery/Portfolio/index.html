@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./CSS/portfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">ABOUT ME</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">EDUCATION</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">EXPERIENCE</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
+                    type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">PROJECT</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="dis-tab" data-bs-toggle="tab" data-bs-target="#dis-tab-pane" type="button"
+                    role="tab" aria-controls="disabled-tab-pane" aria-selected="false">CONTACT</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+                <div style="display: flex;">
+                    <div id="top1">
+                        <img src="./images/_MG_5489-removebg-preview.png" alt="">
+                    </div>
+                    <div id="sajin">
+                        <p>Hello!</p>
+                        <h1>I'm Sajin R</h1>
+                        <h3>Full stack Developer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"></div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div style="display: flex;">
+                    <div id="edu">
+                        <h1>EDUCATION</h1>
+                        <p>“Education is the most powerful weapon <br>you can use to change the world.”</p>
+                    </div>
+                    <div id="edu1">
+                        <h1>2014 - 2020</h1>
+
+                        <h3>Bachelor of Engineering (BE)</h3>
+                        <p>Electronics and Communication Engineering. <br>
+                            St. Xavier’s Catholic College of Engineering,
+                            Chunkankadai. <br>
+                            CGPA - 6.8 <br>
+                            Year of passing - 2020
+                        </p>
+                        <h3>Higher Secondary School Certificate (HSC)</h3>
+                        <p>S.M.R.V. Higher Secondary School, Vadasery. <br>
+                            Percentage – 70 % <br>
+                            Year of passing - 2016
+                        </p>
+                        <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                        <p>S.M.R.V. Higher Secondary School, Vadasery. <br>
+                            Percentage – 82.8 % <br>
+                            Year of passing - 2014
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div style="display: flex;">
+                    <div id="nav1">
+                        <h1>EXPERIENCE</h1>
+                        <hr style="color: white; width: 40%;">
+                        <div id="nav11">
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            <div>
+                                <h3>Karka Academy</h3>
+                                <p>Pursuing a Course (Dec 2023 - Present)</p>
+                            </div>
+                        </div>
+                        <div id="nav11" style="margin-top: 47px;">
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            <div>
+                                <h3>B2C Technologies</h3>
+                                <p>Team Leader (May 2022 - Nov 2023)</p>
+                            </div>
+                        </div>
+                        <div id="nav11" style="margin-top: 20px;">
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            <div>
+                                <h3>B2C Technologies</h3>
+                                <p>Process Associate (Apl 2020 - Apl 2022)</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="nav2">
+                        <h1>2020-2023</h1>
+                        <p>Learnt front-end technologies like HTML, CSS, and JavaScript and frameworks like React.Master
+                            back-end skills with languages like Node.js and frameworks like Django.Acquire database
+                            knowledge, with emphasis on SQL and NoSQL, and explore tools for version control, APIs, and
+                            deployment.</p>
+                        <p>One year working experience in Team leader position in
+                            non-voice based BPO supporting the customer with
+                            computer security products at B2C Technologies, No 16/2
+                            Rajas tower, Ozhuginasery, Nagercoil, Tamil Nadu 629001.</p>
+                        <p>More than 2 year working experience in non-voice based
+                            BPO supporting the customer with computer security
+                            products at B2C Technologies, No 16/2 Rajas tower,
+                            Ozhuginasery, Nagercoil, Tamil Nadu 629001.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                tabindex="0">
+                <div id="last">
+                    <h1>SELECTED PROJECT</h1>
+                    <div style="display: flex; justify-content: space-around; gap: 10px;">
+                        <div id="last1">
+                            <img src="./images/Capture.JPG" alt="">
+                            <p>ToDo list using DOM</p>
+                        </div>
+                        <div id="last2">
+                            <img src="./images/Capture 1.JPG" alt="">
+                            <p>HTML and CSS using BOOTSTRAP</p>
+                        </div>
+                        <div id="last3">
+                            <img src="./images/Capture 2.JPG" alt="">
+                            <p>Reponsive layout using media query</p>
+                        </div>
+                    </div>
+                    <h1 style="margin-top: -10px;">Technical Skills</h1>
+                    <div style="display: flex; text-align: center; ">
+                        <div id="last4">
+                            <img src="./images/pngegg.png" alt="">
+                            <p>HTML</p>
+                        </div>
+                        <div id="last5" style="margin-top: 13px;">
+                            <img src="./images/css.png" alt="">
+                            <p>CSS</p>
+                        </div>
+                        <div id="last6">
+                            <img src="./images/JS.png" alt="">
+                            <p>JavaScript</p>
+                        </div>
+                        <div id="last7">
+                            <img src="./images/REACT.png" alt="">
+                            <p>React.js</p>
+                        </div>
+                        <div id="last8" style="margin-top: 13px;">
+                            <img src="./images/bootstrap.png" alt="">
+                            <p>Bootstrap</p>
+                        </div>
+                        <div id="last9">
+                            <img src="./images/node1.png" alt="">
+                            <p>Node.js</p>
+                        </div>
+                        <div id="last10">
+                            <img src="./images/mysql.png" alt="">
+                            <p>MySql</p>
+                        </div>
+                        <div id="last11">
+                            <img src="./images/python.png" alt="">
+                            <p>Python</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="dis-tab-pane" role="tabpanel" aria-labelledby="dis-tab" tabindex="0">
+                    <h1 style="text-align: center; color: white; margin-top: 30px; font-family: 'Times New Roman', Times, serif;">GET IN TOUCH</h1>
+                    <p style="text-align: center; color: gold; font-family: 'Times New Roman', Times, serif">Let's Work Together</p>
+
+                    <div id="add">
+                        <div id="add1">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <h3>Phone & Mobile</h3>
+                            <p>+91 95851 23409</p>
+                        </div>
+                        <div id="add1">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>sajin0904@gmail.com</p>
+                        </div>
+                        <div id="add1">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Address</h3>
+                            <p>79e/7 Ammancoil street,<br>Vathiyarvilai,Vadasery<br>Nagercoil-629001</p>
+                        </div>
+                        <div id="add1">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <h3>Linked in</h3>
+                            <p>Sajin R</p>
+                        </div>
+                        <a target="_blank" href="https://github.com/Sajin09/karka-fsd"><div id="add1">
+                            <i class="fa-brands fa-github"></i>
+                            <h3>github</h3>
+                            <p>Sajin09</p></a>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../JQuery/portfolio.js"></script>
+
+</html>
