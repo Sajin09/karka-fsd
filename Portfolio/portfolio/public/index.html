@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>React App</title>
+  <style>
+    .cursor {
+      width: 20px;
+      height: 20px;
+      border: 2px solid black;
+      border-radius: 50%;
+      position: absolute;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: transform .5s ease-in-out;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!-- <div class="cursor"></div>
+  <div>
+    <p class="mouse" id="mouses"></p>
+    <div class="logo">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const cursor = document.querySelector('.cursor');
+  
+      document.addEventListener('mousemove', (e) => {
+        const offsetX = -20; // Adjust the offset to position the cursor beside the mouse pointer
+        const offsetY = -660;
+        cursor.style.transform = `translate(${e.pageX + offsetX}px, ${e.pageY + offsetY}px)`;
+      });
+    });
+  </script> -->
+</body>
+
+</html>
