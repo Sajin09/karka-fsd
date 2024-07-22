@@ -19,7 +19,7 @@ const Education = () => {
         <div className="edu1 col-lg-6 col-md-7 col-sm-12 col-12">
           <section>
             <h1>2016 - 2020</h1>
-            <h3>Bachelor of Engineering (BE)</h3>
+            <h3><b>Bachelor of Engineering (BE)</b></h3>
             <p>
               Electronics and Communication Engineering. <br />
               St. Xavier’s Catholic College of Engineering,
@@ -30,7 +30,7 @@ const Education = () => {
           </section>
           <section>
             <h1>2015 - 2016</h1>
-            <h3>Higher Secondary School Certificate (HSC)</h3>
+            <h3><b>Higher Secondary School Certificate (HSC)</b></h3>
             <p>
               S.M.R.V. Higher Secondary School, Vadasery. <br />
               Percentage – 70 % <br />
@@ -39,7 +39,7 @@ const Education = () => {
           </section>
           <section>
             <h1>2013 - 2014</h1>
-            <h3>Secondary School Leaving Certificate (SSLC)</h3>
+            <h3><b>Secondary School Leaving Certificate (SSLC)</b></h3>
             <p>
               S.M.R.V. Higher Secondary School, Vadasery. <br />
               Percentage – 82.8 % <br />

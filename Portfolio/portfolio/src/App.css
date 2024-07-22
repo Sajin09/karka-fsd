@@ -8,7 +8,10 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   cursor: pointer;
-  background-color: aquamarine;
+  overflow-x: hidden;
+  background: url('../src/asserts/vvq12.jpg');
+  background-size: cover;
+
 }
 .cursor {
   position: fixed;
@@ -26,3 +29,4 @@ body {
 .nav1{
   z-index: 9999;
 }
+

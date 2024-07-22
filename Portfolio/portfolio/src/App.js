@@ -6,9 +6,11 @@ import Education from './components/Education/Education';
 import Project from './components/Projects/Project';
 import Tools from './components/Tools/Tools';
 import Skills from './components/Skills/Skills';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
+  
   return (
     <>
       <Navbars />
@@ -17,6 +19,7 @@ function App() {
       <Project />
       <Tools />
       <Skills />
+      <Contact />
 
     </>
   );

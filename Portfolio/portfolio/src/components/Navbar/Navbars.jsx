@@ -27,16 +27,17 @@ const Navbars = () => {
   }, []);
 
   return (
-    <div className='row m-0'>
+    <div>
       <div className='Nav1' style={{ position: 'fixed', top: 0, width: '100%' }}>
-        <Nav justified pills>
+        <Nav justified pills
+        >
           <NavItem>
             <NavLink
               className={`aaa ${activeTab === '1' ? 'active' : ''}`}
               href="#"
               onClick={() => toggle('1')}
             >
-              Link
+              Home
             </NavLink>
           </NavItem>
           <NavItem>
@@ -45,7 +46,7 @@ const Navbars = () => {
               href="#"
               onClick={() => toggle('2')}
             >
-              Much Longer Nav Link
+              Educational Details
             </NavLink>
           </NavItem>
           <NavItem>
@@ -54,7 +55,7 @@ const Navbars = () => {
               href="#"
               onClick={() => toggle('3')}
             >
-              Another Link
+              Technology I Learnt
             </NavLink>
           </NavItem>
           <NavItem>
@@ -63,7 +64,16 @@ const Navbars = () => {
               href="#"
               onClick={() => toggle('4')}
             >
-              Disabled Link
+              Project Details
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink
+              className={`aaa ${activeTab === '5' ? 'active' : ''}`}
+              href="#"
+              onClick={() => toggle('5')}
+            >
+              Contact
             </NavLink>
           </NavItem>
         </Nav>

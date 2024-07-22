@@ -27,7 +27,7 @@
   }
   
   .wrapper {
-    transition: all 0.5s;
+    transition: all .1s;
     position: absolute;
     z-index: -1;
     border-radius: 50%;
@@ -35,10 +35,11 @@
 
   .wrapper img{
     height: 120px;
+    border-radius: 20px; 
   }
   
   .card:hover .wrapper {
-    transform: perspective(2500px) translateY(-5%) rotateX(50deg) translateZ(0); 
+    transform: perspective(2500px) translateY(-5%) rotateX(50deg) translateZ(0);
     box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
@@ -62,7 +63,7 @@
   .wrapper::after {
     bottom: 0;
     opacity: 1;
-    background-image: linear-gradient(
+     background-image: linear-gradient(
        to bottom, 
        transparent 20%, 
        rgba(12, 13, 19, 0.5) 68%,
@@ -99,8 +100,10 @@
 }
 
 .hh1{
-  margin-top: 30px;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 2px 3px rgba(255, 83, 217, 1);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 5px 0px 3px rgba(0, 0, 0, 1) !important;
 }
