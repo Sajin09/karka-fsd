@@ -29,12 +29,11 @@ const Navbars = () => {
   return (
     <div>
       <div className='Nav1' style={{ position: 'fixed', top: 0, width: '100%' }}>
-        <Nav justified pills
-        >
+        <Nav justified pills>
           <NavItem>
             <NavLink
               className={`aaa ${activeTab === '1' ? 'active' : ''}`}
-              href="#"
+              href="#home"
               onClick={() => toggle('1')}
             >
               Home
@@ -43,7 +42,7 @@ const Navbars = () => {
           <NavItem>
             <NavLink
               className={`aaa ${activeTab === '2' ? 'active' : ''}`}
-              href="#"
+              href="#education"
               onClick={() => toggle('2')}
             >
               Educational Details
@@ -52,7 +51,7 @@ const Navbars = () => {
           <NavItem>
             <NavLink
               className={`aaa ${activeTab === '3' ? 'active' : ''}`}
-              href="#"
+              href="#technology"
               onClick={() => toggle('3')}
             >
               Technology I Learnt
@@ -61,7 +60,7 @@ const Navbars = () => {
           <NavItem>
             <NavLink
               className={`aaa ${activeTab === '4' ? 'active' : ''}`}
-              href="#"
+              href="#projects"
               onClick={() => toggle('4')}
             >
               Project Details
@@ -70,7 +69,7 @@ const Navbars = () => {
           <NavItem>
             <NavLink
               className={`aaa ${activeTab === '5' ? 'active' : ''}`}
-              href="#"
+              href="#contact"
               onClick={() => toggle('5')}
             >
               Contact

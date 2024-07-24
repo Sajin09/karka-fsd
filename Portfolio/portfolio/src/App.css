@@ -9,9 +9,8 @@ body {
   font-family: Arial, sans-serif;
   cursor: pointer;
   overflow-x: hidden;
-  background: url('../src/asserts/vvq12.jpg');
-  background-size: cover;
-
+  background: url('./asserts/vvq12.jpg'),no-repeat;
+  background-size: cover  ;
 }
 .cursor {
   position: fixed;

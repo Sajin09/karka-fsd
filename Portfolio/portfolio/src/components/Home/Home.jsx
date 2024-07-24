@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.css';
 import sajin from '../../asserts/Sajin.png';
 import Typewriter from 'typewriter-effect';
 import { IoIosCloudDownload } from "react-icons/io";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
+
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = '/Sajin.R - Full Stack DEV.pdf';
@@ -15,11 +21,11 @@ const Home = () => {
     };
 
     return (
-        <div className='home row m-0'>
-            <div className='image col-lg-4 col-md-4 col-sm-0'>
+        <div className='home row m-0' data-aos="fade-up-right">
+            <div className='image col-lg-4 col-md-4 col-sm-12'>
                 <img src={sajin} alt="Sajin" />
             </div>
-            <div className='content col-lg-8 col-md-8 col-sm-12'>
+            <div className='content col-lg-8 col-md-8 col-sm-12' data-aos="fade-up-left">
                 <section>
                     <div className='row'>
                         <div className='col-lg-2'></div>
